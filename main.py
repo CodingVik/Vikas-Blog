@@ -10,9 +10,6 @@ from forms import CreatePostForm, RegisterForm, LoginForm, CommentForm
 from flask_gravatar import Gravatar
 from functools import wraps
 from flask import abort
-
-from dotenv import load_dotenv
-load_dotenv()
 import os
 
 app = Flask(__name__)
